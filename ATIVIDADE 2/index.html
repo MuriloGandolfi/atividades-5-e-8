@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>GAME MANIA</title>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/popup.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">GAME MANIA</h1>
+  </div>
+</div>
+
+<div class="placeholder">
+<input type="text" placeholder="Search..">
+</div>
+
+<h1>MENU</h1>
+
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">PC</a>
+  <a href="#">Games</a>
+  <a href="#">Eletronicos</a>
+  <a href="#">Celulares</a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://m.media-amazon.com/images/I/71K4CkU04bL._AC_SL1500_.jpg">
+    <img src="https://m.media-amazon.com/images/I/71K4CkU04bL._AC_SL1500_.jpg" alt="Cinque Terre" width="300" height="300">
+  </a>
+  <div class="desc">PC GAMER</div>
+</div>
+
+<div class="gallery2">
+  <a target="_blank" href="https://th.bing.com/th/id/OIP.YuQXuawYOX4_DQR1b6wpegHaHO?rs=1&pid=ImgDetMain">
+    <img src="https://th.bing.com/th/id/OIP.YuQXuawYOX4_DQR1b6wpegHaHO?rs=1&pid=ImgDetMain" alt="Cinque Terre" width="380" height="380">
+  </a>
+  <div class="desc">Kit Periferico Gamer</div>
+</div>
+
+ <div class="buttons">
+      <button class="button btn-Novidades">Novidades &gt;</button>
+      <button class="button btn-Destaques">Destaques &gt;</button>
+    </div>
+
+
+ <div class ="button2">
+<button type="button"> <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo.png" height ="30" width="90" /></button>
+ </div>
+<div class="button3">
+<button id="redirectButton"  type="button"> <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" height ="30" width="90" /></button>
+<script>
+  document.getElementById("redirectButton").addEventListener("click", function () {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // Substitua "pagina.html" pelo caminho da página desejada
+  });
+</script>
+    </div>
+
+<footer class="autor">
+  <p>Author: Murilo Gandolfi e Matheus </p>
+</footer>
+
+
+<div class="carrinho">
+<button><a href="C:\Users\EAD_DevS_T1\Documents\ATIVIDADE 2/carrinho.html">SHOPPING CART</a></button>
+</div>
+
+<div id="loginPopup" class="login-popup">
+  <div class="box">
+    <div class="img-area">
+      <div class="img"></div>
+      <h1>GAME MANIA</h1>
+    </div>
+    <div class="form">
+      <div class="close">&times;</div>
+      <h1>Log In</h1>
+      <form id="loginPopupForm">
+        <div>
+          <input type="text" id="Username" placeholder="Email" class="form-control">
+        </div>
+        <div>
+          <input type="password" id="Password" placeholder="Password" class="form-control">
+        </div>
+        <span id="loginMessage"></span>
+        <button type="submit" class="btn">Log In</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="js/popup.js"></script>
+    
+
+</body>
+</html>
+
+
+
+
+
